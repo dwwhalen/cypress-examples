@@ -17,7 +17,7 @@ npx cypress run
 
 # run all tests in a single spec file
 ```
-npx cypress run --spec cypress/integration/3-my-updates/todo-new.spec.js
+npx cypress run --spec cypress/integration/3-page-objects/todo-new.spec.js
 ```
 
 # Updates made
@@ -25,3 +25,5 @@ The tests in the folders `integration/1-getting-started` and `integration/2-adva
 
 Updates include:
 1. Using page objects - added a new page object class and created `todo-new.spec.js` to demonstrate how to use page objects in a test spec.
+
+2. Cucumber example, based on https://github.com/TheBrainFamily/cypress-cucumber-example.git and https://www.npmjs.com/package/cypress-cucumber-preprocessor'
