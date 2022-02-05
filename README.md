@@ -35,6 +35,6 @@ npx cypress run --spec "cypress/integration/**/*.feature"
 The tests in the folders `integration/1-getting-started` and `integration/2-advanced-examples` are automatically created the first time `npx cypress open` is run.
 
 I've added new folders and exampled:
-1. 3-page-object-examples: added a new page object class and created `todo-new.po-class-spec.js` to demonstrate how to use page objects in a test spec.
+1. integration/3-page-object-examples: added a new page object class and created `todo-new.po-class-spec.js` to demonstrate how to use page objects in a test spec.
 
-2. 4-cucumber-examples: converted the tests from the 1-getting-started folder to feature files (that leverage page objects).  based on https://github.com/TheBrainFamily/cypress-cucumber-example.git and https://www.npmjs.com/package/cypress-cucumber-preprocessor'
+2. integration/4-cucumber-examples: converted the tests from the /1-getting-started folder to feature files (that leverage page objects).  based on https://github.com/TheBrainFamily/cypress-cucumber-example.git and https://www.npmjs.com/package/cypress-cucumber-preprocessor'
