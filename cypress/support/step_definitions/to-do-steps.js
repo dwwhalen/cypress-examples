@@ -1,4 +1,4 @@
-import { TodoPage } from "../../../page-objects/todo-page"
+import { TodoPage } from "../../page-objects/todo-page"
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
 const todoPage = new TodoPage()
