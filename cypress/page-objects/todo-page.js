@@ -12,9 +12,16 @@ export class TodoPage {
     }
 
     validateTodoCount(expectedLength) {
-        cy
+        if (expectedLength > 0) {
+            cy
+                .get('.todo-list li')
+                .should('have.length', expectedLength)
+        }
+        else {
+            cy
             .get('.todo-list li')
-            .should('have.length', expectedLength)
+            .should('not.exist')
+        }
     }
 
     validateTodoText(toDoIndex, expectedTodoText) {
