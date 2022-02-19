@@ -13,8 +13,8 @@ jobs:
         run: npm install
 
       - name: run cypress tests
-          uses: cypress-io/github-action@v2
-          timeout-minutes: 10
+        uses: cypress-io/github-action@v2
+        timeout-minutes: 10
         # with:
         #   record: true
         #   start: npm run serve
